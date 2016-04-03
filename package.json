@@ -12,9 +12,9 @@
   "scripts": {
     "lint": "gulp lint",
     "prebuild": "typings install",
-    "build": "gulp",
+    "build": "gulp build",
     "prepublish": "npm run build",
-    "test": "gulp test"
+    "test": "gulp"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
@@ -39,7 +39,8 @@
     "gulp-util": "^3.0.7",
     "merge2": "^0.3.6",
     "tslint": "^3.1.0-dev.1",
-    "typescript": "^1.7.3"
+    "typescript": "^1.7.3",
+    "typings": "v0.7.*"
   },
   "repository": {
     "type": "git",
